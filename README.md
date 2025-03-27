@@ -16,7 +16,6 @@ A real-time Markdown preview application with split-pane interface, built with v
 - **Responsive Design**: Mobile-friendly layout
 - **Additional Tools**:
   - Reset functionality
-  - Default template with examples
   - Clean, modern UI
 
 ## Quick Start
