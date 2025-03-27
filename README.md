@@ -28,6 +28,10 @@ A real-time Markdown preview application with split-pane interface, built with v
 
 2. Open index.html in any browser
 
+## Live Preview
+
+Click [here](https://markdown-previewer-fawn-tau.vercel.app/)
+
 
 ## Usage Guide
 
