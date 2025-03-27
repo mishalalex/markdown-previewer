@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Previewer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Using marked.js CDN for markdown parsing -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Markdown Previewer</h1>
+        <div class="editor-preview-container">
+            <div class="editor-container">
+                <div class="toolbar">
+                    <span>Your Text</span>
+                    <button id="clear-btn" class="toolbar-btn">Clear</button>
+                </div>
+                <textarea id="editor" placeholder="Write your Markdown here..."></textarea>
+            </div>
+            <div class="preview-container">
+                <div class="toolbar">
+                    <span>Preview</span>
+                </div>
+                <div id="preview"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
